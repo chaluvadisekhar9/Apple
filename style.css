@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.my-header-bg {
+    background-color: #030303;
+}
+
+.my-text-color {
+    color: white;
+}
+
+.my-font-size {
+    font-size: 0.8rem;
+}
+
+.my-text-light-grey {
+    color: grey;
+}
+
+.my-link-color>a {
+    color: darkgrey;
+}
+
+.text-bottom {
+    padding-top: 16rem;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-bar {
+    cursor: pointer;
+}
+
+.myfontstyle {
+    font-family: cursive;
+    font-size: 5rem;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media screen and (min-width:100px) and (max-width:575px) {
+    body {
+        font-size: 100%;
+    }
+    .text-bottom {
+        padding-top: 28vw;
+    }
+    .myh1 {
+        font-size: 5vw;
+    }
+    .myh3 {
+        font-size: 4vw;
+    }
+    .myh4 {
+        font-size: 3vw;
+    }
+    .myh5 {
+        font-size: 2.5vw;
+    }
+    .myfontstyle {
+        font-size: 6vw;
+    }
+    .mypara {
+        font-size: 2vw;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px)*/
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    body {
+        font-size: 100%;
+    }
+    .text-bottom {
+        padding-top: 45vw;
+    }
+    .myh1 {
+        font-size: 4.5vw;
+    }
+    .myh3 {
+        font-size: 3.5vw;
+    }
+    .myh4 {
+        font-size: 2.5vw;
+    }
+    .myh5 {
+        font-size: 2vw;
+    }
+    .myfontstyle {
+        font-size: 6vw;
+    }
+    .mypara {
+        font-size: 2vw;
+    }
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body {
+        font-size: 100%;
+    }
+    .text-bottom {
+        padding-top: 18vw;
+    }
+    .myh1 {
+        font-size: 3.5vw;
+    }
+    .myh3 {
+        font-size: 2.5vw;
+    }
+    .myh4 {
+        font-size: 2vw;
+    }
+    .myh5 {
+        font-size: 1.8vw;
+    }
+    .myfontstyle {
+        font-size: 3vw;
+    }
+    .mypara {
+        font-size: 1.2vw;
+    }
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .myfontstyle {
+        font-size: 3.2vw;
+    }
+    .mypara {
+        font-size: 1.2vw;
+    }
+    .text-bottom {
+        padding-top: 18vw;
+    }
+}
